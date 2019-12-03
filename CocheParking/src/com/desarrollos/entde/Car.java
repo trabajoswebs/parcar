@@ -39,7 +39,11 @@ public class Car
 //        turnHeadlightsOff();
     }    
 
-    /**
+    //Creamos metodo printGarage
+    public void printGarage() {
+		theGarage.printGarage();
+	}
+	/**
      * Accelerate the car
      * @throws InterruptedException 
      */

@@ -43,7 +43,7 @@ public class Car
      * Accelerate the car
      * @throws InterruptedException 
      */
-    public void accelerate() throws InterruptedException{
+    public static void accelerate() throws InterruptedException{
         String c = new String("*");
         String space = new String(" ");
     	for(int i=0; i<5; i++)
@@ -59,7 +59,7 @@ public class Car
      * @throws InterruptedException 
      */
     public static void slowDown() throws InterruptedException{
-    	string c = new string("     *");
+    	String c = new String("     *");
     	for(int i=0; i<5; i++)
         {
         	System.out.print(c);
@@ -73,7 +73,7 @@ public class Car
      * Move the car downwards
      * @throws InterruptedException 
      */    
-    public void moveDown() throws InterruptedException{
+    public static void moveDown() throws InterruptedException{
     	String c = new String("\t\t\t\t  *");
     	for(int i=0; i<5; i++)
         {
